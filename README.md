@@ -5,18 +5,29 @@ Unity 4.3にBox2DのオープンソースC++物理演算エンジンが統合し
 統合されたBox2D物理演算と物理のコンポーネント
 
 リジッドボディコンポーネント(RigidBody2D)supporting static/kinematic/dynamic body, mass, linear/angular velocities, drag and auto-sleeping, and fixed-angle constraint.
+
 サークルコライダー(CircleCollider2D)重心と半径プロパティがあります。
+
 ボックスコライダー(BoxCollider2D)重心とサイズプロパティがあります。
+
 ポリゴンコライダー(PolygonCollider2D)初期化するためにコンポーネントのスプライトをドラッグできます。
+
 ディスタンスジョイント(DistanceJoint2D)リジッドボディの最大距離設定。
+
 ヒンジジョイント(HingeJoint2D)回転角度の リミットとモーター
+
 スライダージョイント(SliderJoint2D)直線の リミットとモーター
-スプリングジョイント(SpringJoint2D)リジッドボディの柔らかい最大距離設定
-新しい物理マテリアルPhysicsMaterial2Dを追加しました。
+
+スプリングジョイント(SpringJoint2D)リジッドボディの柔らかい最大距離設定新しい物理マテリアルPhysicsMaterial2Dを追加しました。
+
 シーンの2D物理の設定を管理するために2Dphysics managerを追加しました。
+
 Added spatial queries in Physics2D scripting class for line and ray-casting and geometry overlap checks.
+
 2Dコライダーのトリガーおようびコリジョンコールバックを追加しました。
+
 プロファイラーに2D物理プロファイリング情報を追加しました。
+
 エディター：シフトキーを押すと2Dコライダーを変更できます。
 
 
@@ -221,18 +232,31 @@ Unity 4.3 integrates the open source C++ Box2D physics engine. Implementation is
 Physics Components and features introduce include:
 
 Rigid-body component (RigidBody2D) supporting static/kinematic/dynamic body, mass, linear/angular velocities, drag and auto-sleeping, and fixed-angle constraint.
+
 Circle collider (CircleCollider2D) supporting a centroid and radius.
+
 Box collider (BoxCollider2D) supporting a centroid and a size.
+
 Polygon collider (PolygonCollider2D) supporting an arbitrary set of polygons. It can be initialized to the shape of a sprite by dragging the sprite onto the component.
+
 Distance joint (DistanceJoint2D) supporting a hard maximum distance between rigid-bodies.
+
 Hinge joint (HingeJoint2D) supporting linear and angular limits and motor drive.
+
 Slider joint (SliderJoint2D) supporting an axis constraint, linear limits and motor drive.
+
 Spring joint (SpringJoint2D) supporting a soft (spring) distance between rigid-bodies.
+
 Added a new physics material PhysicsMaterial2D to share friction and bounciness including default material support.
+
 Added a 2D physics manager to contain scene settings such as gravity etc.
+
 Added spatial queries in Physics2D scripting class for line and ray-casting and geometry overlap checks.
+
 Added both trigger and collision callbacks for 2D colliders including collision points and normal.
+
 Added 2D physics profiling information to the profiler.
+
 Editor: Hold down shift to quickly modify 2D colliders.
 
 
