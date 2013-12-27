@@ -1,4 +1,4 @@
-unity2d-joints
+unity2d-joints - English below
 ==============
 
 Unity 4.3にBox2DのオープンソースC++物理演算エンジンが統合しています。2D物理コンポーネントの使い方は3Dのに似ているから判りやすいです。3Dより2D物理演算のパフォーマンスが良いし、安定し、ゲームビルドは小さいです。
@@ -226,6 +226,11 @@ verts #>       min:  1280  max:  1350  avg:  1317   | batched:  1311
 player-detail> physx: 41.0 animation:  0.0 culling  0.0 skinning:  0.0 batching:  0.7 render:  2.4 fixed-update-count: 2 .. 3
 mono-scripts>  update:  0.0   fixedUpdate:  0.0 coroutines:  0.2 
 mono-memory>   used heap: 200704 allocated heap: 262144  max number of collections: 0 collection total duration:  0.0
+
+
+
+
+==============
 
 Unity 4.3 integrates the open source C++ Box2D physics engine. Implementation is very similar to 3D Physics components. 2D physics components provide better performance, more stable simulation and smaller game builds than existing 3D physics components.
 
